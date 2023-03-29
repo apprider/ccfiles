@@ -1,0 +1,48 @@
+{
+    "name": "Care.Chain",
+    "genesis": {
+        "nonce": "0x0000000000000000",
+        "timestamp": "0x0",
+        "extraData": "0x0000000000000000000000000000000000000000000000000000000000000000f90129f90120f84694eb86a1977b2d869d0af14c9b243388b94001e04fb0861a2a145af25476448ebbf21a63c6bb374f92ff722c037387512fd98260c957b78ebe402e9743cebf2acd844865d522f846947f0a79fa5647bb74648fc5005f1d281b4993a4fcb0963eca281cdd33631d3b8d6ff381164b0da3482b9a73d82606adbb88dee6a9d7fce557b98b2ac2617330867e46a4b6abf8469428527ff6f96e1c30e1bc450f99f929c8941b6e05b0ac55a08b60ffa4e67fe5e4c20be56e901dd16585d649199668096142c3882718c6425a675377910a0c8752e4dc802dcff846941e6499ec057e1b3e536b69da93299c0f5637b490b099014709b6adffb6f763a08f54dbccb34bd7d3ea17513982ca4ab6f6f268484f98aa616b9b5ae3f9e2aeaa87bb4a892280c28080c080",
+        "gasLimit": "0x500000",
+        "difficulty": "0x1",
+        "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "coinbase": "0x0000000000000000000000000000000000000000",
+        "alloc": {
+            "0x096Cbbf8A1176e44fC4dB815D29b77D0615A0B40": {
+                "balance": "0xd3c21bcecceda1000000"
+            }
+        },
+        "number": "0x0",
+        "gasUsed": "0x70000",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "params": {
+        "forks": {
+            "homestead": 0,
+            "byzantium": 0,
+            "constantinople": 0,
+            "petersburg": 0,
+            "istanbul": 0,
+            "london": 0,
+            "EIP150": 0,
+            "EIP158": 0,
+            "EIP155": 0
+        },
+        "chainID": 727,
+        "engine": {
+            "ibft": {
+                "epochSize": 100000,
+                "type": "PoA",
+                "validator_type": "bls"
+            }
+        },
+        "blockGasTarget": 0
+    },
+    "bootnodes": [
+        "/ip4/142.93.124.84/tcp/1478/p2p/16Uiu2HAmT87EbtVBuurPxEs8YZnL38DXZbvQ95mArFxkREUbYPUq",
+        "/ip4/142.93.159.4/tcp/1478/p2p/16Uiu2HAmA1RpMfymHxzZoiX3VUrWkmaVvo9Mtp7cvcEV7MmzBrhF",
+        "/ip4/159.89.54.205/tcp/1478/p2p/16Uiu2HAmPBYWXxZifrP4wDgTYUHpgEFRja5mQTY8ggnQaE3nfxY4",
+        "/ip4/157.230.48.59/tcp/1478/p2p/16Uiu2HAmKmDX5boenNahzN8vHLugsQVv1yBcZEcbE1qXwJXRqNDD"
+    ]
+}
