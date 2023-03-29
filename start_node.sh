@@ -12,7 +12,7 @@ echo "
 	LimitNOFILE=4096
 	WorkingDirectory=/home/validator
 
-	ExecStart=carechainnode server --data-dir ./data-dir --chain ./genesis.json  --grpc 0.0.0.0:9632 --libp2p 0.0.0.0:1478 --jsonrpc 0.0.0.0:8545 --nat 159.89.54.205 --seal
+	ExecStart=carechainnode server --data-dir ./data-dir --chain ./genesis.json  --grpc 0.0.0.0:9632 --libp2p 0.0.0.0:1478 --jsonrpc 0.0.0.0:8545 --nat 159.89.54.205
 	[Install]
 	WantedBy=multi-user.target
 " | sudo tee carechain.service
